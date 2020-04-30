@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="portfolioApp">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <script type="text/javascript" src="js/zegar.js"></script>
+    <title>Astronomican</title>
+</head>
+<body onload="zegar()">
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <a class="navbar-brand" href="index.html"><img src="images/logo1.jpg" height="100px" width="auto"></a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav">
+            <li class="nav-item">
+                <a class="nav-link" href="planety.html">Galeria<span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="kontakt.html">Kontakt</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="form.html">Formularz <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="Informacje.html">O stronie<span class="sr-only">(current)</span></a>
+            </li>
+        </ul>
+        <div id="zegar"></div>
+    </div>
+</nav>
+
+<header>
+        <div id="slajder" class="carousel slide" data-ride="carousel" >
+            <ol class="carousel-indicators">
+                <li data-target="#slajder" data-slide-to="0" class="active"></li>
+                <li data-target="#slajder" data-slide-to="1"></li>
+                <li data-target="#slajder" data-slide-to="2"></li>
+                <li data-target="#slajder" data-slide-to="3"></li>
+                <li data-target="#slajder" data-slide-to="4"></li>
+            </ol>
+            <div class="carousel-inner" >
+                <div class="carousel-item active">
+                    <img class="d-block w-100" src="images/milkyway.jpg" alt="First slide" width="100%" height="600px">
+                </div>
+                <div class="carousel-item">
+                    <img class="d-block w-100" src="images/blackhole.jpg" alt="Second slide" width="100%" height="600px">
+                </div>
+                <div class="carousel-item">
+                    <img class="d-block w-100" src="images/supernova.jpg" alt="Third slide" width="100%" height="600px">
+                </div>
+                <div class="carousel-item">
+                    <img class="d-block w-100" src="images/comet.jpg" alt="Fourth slide" width="100%" height="600px">
+                </div>
+                <div class="carousel-item">
+                    <img class="d-block w-100" src="images/dead_star.jpg" alt="Fifth slide" width="100%" height="600px">
+                </div>
+            </div>
+            <a class="carousel-control-prev" href="#slajder" role="button" data-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="sr-only">Poprzedni</span>
+            </a>
+            <a class="carousel-control-next" href="#slajder" role="button" data-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="sr-only">Następny</span>
+            </a>
+        </div>
+
+</header>
+
+    <section id="sekcja1" class="jumbotron">
+    <!-- Zawartość sekcji strony -->
+        <div class="container"><h2 align="center">O stronie</h2>
+            <p>Witam na Astronomicanie! Zapraszam, i zachęcam do zgłębienia się w tajemnice, jakie kryje w sobie kosmos :)</p>
+        </div>
+    </section>
+
+<section id="sekcja2" class="jumbotron">
+    <div class="container">
+        <h2 align="center">
+            <h4>Artykuł 1 - Teleskop Kepplera</h4>
+        </h2>
+        <p>Teleskop Keplera szukał planet pozasłonecznych przy pomocy metody tranzytu.
+            Mierzył on jasności gwiazd w poszukiwaniu niewielkich, regularnych osłabień blasku,
+            które mogły być spowodowane obiegiem planety wokół gwiazdy.
+            Jeśli płaszczyzna orbity planety jest odpowiednio ustawiona względem naszej linii widzenia,
+            to taka planeta będzie okresowo przechodzić przed swoją gwiazdą –
+            dokonywać tranzytu, co spowoduje okresowy spadek jasności.
+            Choć Kosmiczny Teleskop Keplera zakończył swoją misję, to pozyskane dzięki niemu dane nadal są analizowane.
+            Ogrom zebranych informacji jeszcze przez długi czas da zatrudnienie astronomom,
+            co może zaowocować kolejnymi odkryciami.
+            Potwierdzają to ostatnie analizy, w których zespół naukowców zidentyfikował nieznaną dotąd
+            egzoplanetę o wielkości Ziemi i znajdującą się w ekosferze.
+            Poprzednie analizy danych przy pomocy algorytmu komputerowego błędnie sklasyfikowały obiekt.
+            Dopiero ponowne przyglądnięcie się tej sygnaturze pozwoliło rozpoznać planetę.
+            Ze wszystkich egzoplanet znalezionych przez teleskop Keplera, ten odległy świat, znajdujący się
+            odległości około 300 lat świetlnych od nas,
+            jest najbardziej podobny do Ziemi pod względem wielkości i szacowanej temperatury tam panującej.
+            Odkrycia ukazały się na łamach pisma „The Astrophysical Journal Letters”. </p>
+        <span>Źródło:https://dzienniknaukowy.pl/kosmos/podobna-do-ziemi-planeta-odkryta-w-archiwalnych-danych-z-teleskopu-keplera</span>
+
+    </div>
+    </section>
+
+    <section id="sekcja3" class="jumbotron">
+        <div class="container">
+            <div class="content">
+            <h2 align="center">
+                <h4>Artykuł 2 - Teleskop Hubble'a zarejestrował rozpad komety Atlas</h4>
+            </h2>
+            <p>Kosmiczny Teleskop Hubble'a uchwycił rozpad komety Atlas. Wcześniej przewidywano,
+                że kometa podczas zbliżania się do Słońca może stać się jaśniejsza niż Wenus.
+                Niektóre scenariusze przewidywały nawet, że jej jasność może wzrosnąć do tego stopnia,
+                iż będzie widoczna w ciągu dnia, zapewniając kosmiczny spektakl.
+                Ale show, na które się zanosiło nie dojdzie do skutku. Teleskop Hubble'a na zdjęciach
+                wykonanych 20 i 23 kwietnia zidentyfikował dziesiątki fragmentów po komecie.
+                Kometę Atlas (C/2019Y4) odkrył 28 grudnia 2019 roku system alarmowy Asteroid Terrestrial-impact
+                Last Alert na Hawajach. Wówczas obiekt znajdował się w odległości 439 milionów kilometrów
+                od Słońca i był dość słabo widoczny, ale od tamtego czasu rozjaśniał się tak szybko,
+                że astronomowie mieli duże nadzieje na kosmiczny show z jego udziałem.</p>
+            <p>Jednak nic z tego. Kometa Atlas nie osiągnęła swojego peryhelium, nawet nie przecięła orbity Ziemi, a już dokonała żywota.
+                Na zdjęciach wykonanych w dniach 20 i 23 kwietnia Kosmiczny Teleskop Hubble'a uchwycił odpowiednio co najmniej 30 i 25 fragmentów komety,
+                podróżujących razem w kierunku wewnętrznego Układu Słonecznego.
+                Po początkowym dość szybkim rozjaśnieniu kometa Atlas nagle zaczęła ciemnieć,
+                co doprowadziło astronomów do spekulacji, że lodowy rdzeń może się rozpadać.
+                Potwierdził to astronom-amator Jose de Queiroz, który 11 kwietnia sfotografował trzy fragmenty komety.
+                Obrazy dostarczone przez Kosmiczny Teleskop Hubble'a dodały kolejne dowody na to, że kometa
+                Atlas rozpadła się na około 30 kawałków.
+                Wszystkie otoczone są warkoczem komety, strumieniem gazów i pyłów wydobywających się z komety
+                pod wpływem oddziaływania wiatru słonecznego.
+                - Ich wygląd zmienił się w ciągu dwóch dni tak bardzo, że połączenie fragmentów w całość jest dość trudne -
+                powiedział David Jewitt, z University of California, Los Angeles,
+                lider jednego z dwóch zespołów, który sfotografował fragmenty komety. -
+                Nie wiem, czy dzieje się tak dlatego, że poszczególne elementy rozjaśniają się i gasną,
+                gdy odbijają światło słoneczne, zachowując się jak migoczące światełka na choince,
+                czy też dlatego, że różne fragmenty pojawiają się w kolejnych dniach – dodał.</p>
+            <span>https://dzienniknaukowy.pl/kosmos/teleskop-hubblea-zarejestrowal-rozpad-komety-atlas</span>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <div class="container">
+            <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#mojModel">
+                Polityka Prywatności
+            </button>
+            <p style="color:white;">© 2020 Szymon Doerfer All Rights Reserved.</p>
+        </div>
+    </footer>
+    <div class="modal fade" id="mojModel" tabindex="-1" role="dialog" aria-labelledby="MyModalLabel">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+            <div class="modal-header">
+                <h4 class="modal-title" id="MyModalLabel"> Polityka Prywatności </h4>
+            </div>
+            <div class="modal-body">
+                Treść polityki prywatności - wersja beta
+            </div>
+            <div class="modal-footer" >
+                <a href="#" class="btn btn-default" data-dismiss="modal">Zamknij</a>
+            </div>
+        </div>
+    </div>
+</div>
+<script type="text/javascript" src="js/zaliczenie.js"></script>
+<script src="js/angular.min.js"></script>
+<script src="js/controllers.js"></script>
+
+<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+</body>
+</html>
+
+

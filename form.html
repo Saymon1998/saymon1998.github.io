@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="portfolioApp">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <script type="text/javascript" src="js/zegar.js"></script>
+    <title>Astronomican</title>
+</head>
+<body onload="zegar()">
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <a class="navbar-brand" href="index.html"><img src="images/logo1.jpg" height="100px" width="auto"></a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav">
+            <li class="nav-item">
+                <a class="nav-link" href="planety.html">Galeria<span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="kontakt.html">Kontakt</a>
+            </li>
+            <li class="nav-item active">
+                <a class="nav-link" href="form.html">Formularz <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="Informacje.html">O stronie<span class="sr-only">(current)</span></a>
+            </li>
+        </ul>
+        <div id="zegar"></div>
+    </div>
+</nav>
+
+<section id="sekcja1" class="jumbotron" style="margin-top:15px;">
+    <!-- Zawartość sekcji strony -->
+    <div class="container"><h2 align="center">Newsletter</h2>
+        <p>Spodobała Ci się moja strona? Zapisz się do tygodniowego newslettera, już nic Cię nie ominie!</p>
+    </div>
+</section>
+
+<section id="sekcja3" class="jumbotron">
+    <div class="container">
+        <h2 align="center">Formularz</h2>
+        <form action="index.html#kontakt" class="needs-validation" validate >
+            <div class="form-group">
+
+                <fieldset>
+                    <p id="error1" class="visible"></p>
+                    <label for="i_n">Imię i nazwisko</label>
+                    <input type="text" class="form-control" id="i_n" aria-describedby="pomoc1" minlength="1" placeholder="Tutaj wpisz imię i nazwisko" onblur="funcBlur()" required>
+                    <div class="valid-feedback">Jest git!</div>
+                    <small id="pomoc1" class="form-text text-muted">Nie musi być prawdziwe!</small>
+
+                    <p id="error2" class="visible"></p>
+                    <label for="em">Adres poczty elektronicznej:</label>
+                    <input type="email" class="form-control" id="em" aria-describedby="pomoc2" placeholder="Tutaj wpisz e-mail" onblur="funcBlur()" required>
+                    <div class="valid-feedback">Jest git!</div>
+                    <small id="pomoc2" class="form-text text-muted">Też nie musi być prawdziwe!</small>
+
+                    <label for="p_t">Dodatkowe informacje:</label>
+                    <textarea id="p_t" maxlength="250" class="form-control" placeholder="Tutaj wpisz informacje" onblur="funcBlur()" required></textarea>
+                    <button type="submit" class="btn btn-secondary" style="margin-top:10px">Wyślij</button>
+                </fieldset>
+            </div>
+        </form>
+    </div>
+</section>
+<footer>
+    <div class="container">
+        <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#mojModel">
+            Polityka Prywatności
+        </button>
+        <p style="color:white;">© 2020 Szymon Doerfer All Rights Reserved.</p>
+    </div>
+</footer>
+<div class="modal fade" id="mojModel" tabindex="-1" role="dialog" aria-labelledby="MyModalLabel">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h4 class="modal-title" id="MyModalLabel"> Polityka Prywatności </h4>
+            </div>
+            <div class="modal-body">
+                Treść polityki prywatności - wersja beta
+            </div>
+            <div class="modal-footer" >
+                <a href="#" class="btn btn-default" data-dismiss="modal">Zamknij</a>
+            </div>
+        </div>
+    </div>
+</div>
+<script type="text/javascript" src="js/zaliczenie.js"></script>
+<script src="js/angular.min.js"></script>
+<script src="js/controllers.js"></script>
+
+<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+</body>
+</html>
+
+
