@@ -1,22 +1,22 @@
 {
 "galleries":[
   {
-    "title":"Neptun", "distance":"4 500 000 000", "thumbnailUrl":"neptun.jpeg"
+    "title":"Neptun", "distance":4 500 000 000, "thumbnailUrl":"neptun.jpeg"
   },
   {
-    "title":"Ziemia", "distance":"150 000 000", "thumbnailUrl":"ziemia.jpeg"
+    "title":"Ziemia", "distance":150 000 000, "thumbnailUrl":"ziemia.jpeg"
   },
   {
-    "title":"Wenus", "distance:":"108 000 000", "thumbnailUrl":"wenus.jpeg"
+    "title":"Wenus", "distance:":108 000 000, "thumbnailUrl":"wenus.jpeg"
   },
   {
-    "title":"Mars", "distance":"228 000 000", "thumbnailUrl":"mars.jpeg"
+    "title":"Mars", "distance":228 000 000, "thumbnailUrl":"mars.jpeg"
   },
   {
-    "title":"Merkury", "distance":"58 000 000", "thumbnailUrl":"merkury.jpeg"
+    "title":"Merkury", "distance":58 000 000, "thumbnailUrl":"merkury.jpeg"
   },
   {
-    "title":"Saturn", "distance":"1 427 000 000", "thumbnailUrl":"saturn.jpeg"
+    "title":"Saturn", "distance":1 427 000 000, "thumbnailUrl":"saturn.jpeg"
   }
 ]
 }
