@@ -1,4 +1,5 @@
 var portfolioApp = angular.module('portfolioApp',[]);
+var i;
     portfolioApp.controller('GalleryListCtrl',function($scope, $http)
       {
               $http.get("../images/galleries.json").then(function(response)
@@ -13,6 +14,7 @@ var portfolioApp = angular.module('portfolioApp',[]);
                   $scope.sortList=response.data.sortList;
                   $scope.orderProp = $scope.sortList[i];
                   $scope.orderProp = 'distance';
+                  i=i+1;
             }
           );
 
