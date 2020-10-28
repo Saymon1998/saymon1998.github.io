@@ -53,7 +53,7 @@
 							class="glyphicon glyphicon-home"></span>
 					</a></li>
 					<li><a href="projekt1.html">Projekt 1</a></li>
-					<li><a href="projekt2.html">Projekt 2</a></li>
+					<li><a href="#projekt2">Projekt 2</a></li>
 					<li><a href="#form" data-toggle="modal"
 						data-target="#ModalForm">Kontakt</a></li>
 					<li class="dropdown"><a href="#" class="dropdown-toggle"
@@ -62,7 +62,7 @@
 					</a>
 						<ul class="dropdown-menu">
 							<li><a href="lab1.html">Laboratorium 1</a></li>
-							<li><a href="#">Akcja 2</a></li>
+							<li><a href="lab2.html">Laboratorium 2</a></li>
 							<li><a href="#">Akcja 3</a></li>
 							<li role="separator" class="divider"></li>
 							<li class="dropdown-header">Linki</li>
@@ -128,9 +128,27 @@
 
 		</div>
 	</section>
-	<section>
-		<div class="jumbotron"><center><h1>Hello!</h1></center></div>
+	<!-- /container -->
+
+	<section id="lab2">
+		<div class="container">
+			<div class="jumbotron">
+				<h1>Laboratorium 2</h1>
+				
+				<div id="pytanie">
+					<script src="scripts/lab2.js"></script>
+				</div>
+					Podaj swoją odpowiedź: <input type="text" name="answer" id="answer"></input>
+					<input type="submit" onclick=next() value="next"></input>
+					<div id="odpowiedz"></div>
+					<div id="wynik"></div>
+					
+				
+			</div>
+		</div>
 	</section>
+	
+
 	<footer>
 		<div class="container" style="margin-top: 5%">
 			<button type="button" class="btn btn-link" data-toggle="modal"

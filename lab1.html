@@ -53,7 +53,7 @@
 							class="glyphicon glyphicon-home"></span>
 					</a></li>
 					<li><a href="projekt1.html">Projekt 1</a></li>
-					<li><a href="projekt2.html">Projekt 2</a></li>
+					<li><a href="#projekt2">Projekt 2</a></li>
 					<li><a href="#form" data-toggle="modal"
 						data-target="#ModalForm">Kontakt</a></li>
 					<li class="dropdown"><a href="#" class="dropdown-toggle"
@@ -62,7 +62,7 @@
 					</a>
 						<ul class="dropdown-menu">
 							<li><a href="lab1.html">Laboratorium 1</a></li>
-							<li><a href="#">Akcja 2</a></li>
+							<li><a href="lab2.html">Laboratorium 2</a></li>
 							<li><a href="#">Akcja 3</a></li>
 							<li role="separator" class="divider"></li>
 							<li class="dropdown-header">Linki</li>
@@ -128,9 +128,41 @@
 
 		</div>
 	</section>
-	<section>
-		<div class="jumbotron"><center><h1>Hello!</h1></center></div>
+	<!-- /container -->
+
+	<section id="projekt1">
+		<div class="container">
+			<div class="jumbotron">
+				<h1>Lab 1</h1>
+				<!-- Kontrola ładowania skryptow -->
+
+				<!-- 
+				<script src="scripts/name.js"></script>
+				<script >
+					document.write('<p>Ćw. 1 Witaj, ' + name + '</p>');
+				</script>  -->
+
+				<!-- Tablice -->
+				<p>Tablice:<script src="scripts/tab_zad1.js"></script></p>
+				<p>Zadanie 2:
+					<script src="scripts/zad2.js"></script>
+				</p>
+				<strong>
+				<script>
+				document.write("Podsumowanie:");
+				for (let i = 0; i < tab.length; i++) 
+				{  
+    				document.write(tab[i]+'<br>');
+				}
+				</script>
+				</strong>
+				
+			</div>
+		</div>
 	</section>
+
+
+
 	<footer>
 		<div class="container" style="margin-top: 5%">
 			<button type="button" class="btn btn-link" data-toggle="modal"

@@ -53,7 +53,7 @@
 							class="glyphicon glyphicon-home"></span>
 					</a></li>
 					<li><a href="projekt1.html">Projekt 1</a></li>
-					<li><a href="projekt2.html">Projekt 2</a></li>
+					<li><a href="#projekt2">Projekt 2</a></li>
 					<li><a href="#form" data-toggle="modal"
 						data-target="#ModalForm">Kontakt</a></li>
 					<li class="dropdown"><a href="#" class="dropdown-toggle"
@@ -62,7 +62,7 @@
 					</a>
 						<ul class="dropdown-menu">
 							<li><a href="lab1.html">Laboratorium 1</a></li>
-							<li><a href="#">Akcja 2</a></li>
+							<li><a href="lab2.html">Laboratorium 2</a></li>
 							<li><a href="#">Akcja 3</a></li>
 							<li role="separator" class="divider"></li>
 							<li class="dropdown-header">Linki</li>
@@ -128,9 +128,49 @@
 
 		</div>
 	</section>
-	<section>
-		<div class="jumbotron"><center><h1>Hello!</h1></center></div>
+	<!-- /container -->
+
+	
+	<section id="projekt1">
+		<div class="container">
+			<div class="jumbotron">
+				<h1>Projekt 2</h1>
+				
+				<p><center><strong style="font-size: 14px;">QUIZ</strong></center>
+					<div id="quiz">
+					<script src="scripts/quiz.js"></script>
+					<form name="form1">
+						<ol>
+							<li>
+							<p>W którym roku odbyła się bitwa pod Grunwaldem?</p>	<input type="text" id="q1">
+							</li>	
+							<li>
+							<p>Kto jest kompozytorem utworu "Marsz Żałobny?</p><input type="text" id="q2">
+							</li>
+							<li>
+							<p>Który kompozytor konkurował z Amadeuszem Mozartem?</p><input type="text" id="q3">
+							</li>	
+							<li>
+							<p>Kto jest autorem dzieł "4 pory roku"?(<p>Podpowiedź:Te utwory zostały wydane w 1725r.)</p>
+							</p>	<input type="text" id="q4">
+							</li>	
+							<li>
+							<p>Kto jest twórcą ołtarza Mariackiego w Kragowie?</p>	<input type="text" id="q5">
+							</li>
+							<li>
+							<p>Jak się nazywał jedyny w historii państwa Polskiego naczelnik RP?</p>
+							<input type="text" id="q6">
+							</li>			
+						</ol>			
+					</form>
+				</div>
+				<input type="button" value="wyślij" onClick="funkcja()"></button>
+				
+				</p>		
+			</div>
+		</div>
 	</section>
+
 	<footer>
 		<div class="container" style="margin-top: 5%">
 			<button type="button" class="btn btn-link" data-toggle="modal"
