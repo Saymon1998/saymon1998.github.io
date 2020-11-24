@@ -1,0 +1,314 @@
+<!DOCTYPE html>
+<html lang="pl" id="cialo">
+
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="description" content="Programowanie w JAVASCRIPT - template">
+	<meta name="author" content="dr inż. Jacek Paluszak">
+	<link rel="icon" href="img/favicon.ico">
+
+	<title>Programowanie w JAVASCRIPT</title>
+
+	<!-- Bootstrap core CSS -->
+	<link href="css/bootstrap.min.css" rel="stylesheet">
+	<link href="css/styles.css" rel="stylesheet">
+	<link href="css/ie10-viewport-bug-workaround.css" rel="stylesheet">
+	<link href="css/navbar-fixed-top.css" rel="stylesheet">
+	<script src="js/ie-emulation-modes-warning.js"></script>
+
+	<!-- jQuery  -->
+	<script src="js/jquery-3.3.1.min.js"></script>
+	<script src="http://code.jquery.com/color/jquery.color-2.1.2.min.js"></script>
+	<script src="js/jquery.easing.1.3.min.js"></script>
+	<script src="js/jquery.easing.compatibility.js"></script>
+	<script src="js/jquery.color-2.2.0.min.js"></script>
+
+
+</head>
+
+<body>
+
+	<!-- navbar -->
+	<nav class="navbar navbar-default navbar-fixed-top">
+		<div class="container">
+
+			<div class="navbar-header">
+				<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar"
+					aria-expanded="false" aria-controls="navbar">
+					<span class="sr-only">Toggle navigation</span> <span class="icon-bar"></span> <span
+						class="icon-bar"></span> <span class="icon-bar"></span>
+				</button>
+				<a class="navbar-brand" href="#"><img src="img/logoPWSZ.png" height="40" alt=""></a> <a
+					class="navbar-brand logotext" href="#">PWSZ
+					Lab</a>
+			</div>
+
+			<div id="navbar" class="navbar-collapse collapse">
+				<ul class="nav navbar-nav">
+					<li class="active"><a href="#main-page" class="btn btn-primary" title="Strona główna"> <span
+								class="glyphicon glyphicon-home"></span>
+						</a></li>
+					<li><a href="projekt1.html">Projekt 1</a></li>
+					<li><a href="projekt2.html">Projekt 2</a></li>
+					<li><a href="projekt3.html">Projekt 3_4</a></li>
+					<li><a href="#form" data-toggle="modal" data-target="#ModalForm">Kontakt</a></li>
+					<li class="dropdown"><a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button"
+							aria-haspopup="true" aria-expanded="false">Opcje <span class="caret"></span>
+						</a>
+						<ul class="dropdown-menu">
+							<li><a href="lab1.html">Laboratorium 1</a></li>
+							<li><a href="lab3.html">Laboratorium 3</a></li>
+							<li><a href="#">Akcja 3</a></li>
+							<li role="separator" class="divider"></li>
+							<li class="dropdown-header">Linki</li>
+							<li><a href="#">Link 1</a></li>
+							<li><a href="#">Link 2</a></li>
+						</ul>
+					</li>
+				</ul>
+			</div>
+			<!--/.nav-collapse -->
+		</div>
+
+	</nav>
+
+	<!-- Main container -->
+	<section id="main-page">
+		<div class="container">
+
+			<div class="jumbotron">
+				<h1>Programowanie w JAVASCRIPT</h1>
+				<div class="row">
+					<div class="col-md-2" align="left">
+						<p>nazwisko:</p>
+					</div>
+					<div class="col-md-4">
+						<p>Doerfer</p>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-md-2" align="left">
+						<p>imię:</p>
+					</div>
+					<div class="col-md-4">
+						<p>Szymon</p>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-md-2" align="left">
+						<p>grupa:</p>
+					</div>
+					<div class="col-md-4">
+						<p>II</p>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-md-2" align="left">
+						<p>email:</p>
+					</div>
+					<div class="col-md-4">
+						<p>19134@student.pwsz.elblag.pl</p>
+						<p>szymon.doerfer@wp.pl</p>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-md-2" align="left">
+						<p>nr indeksu:</p>
+					</div>
+					<div class="col-md-4">
+						<p>19134</p>
+					</div>
+				</div>
+
+			</div>
+
+		</div>
+	</section>
+	<!-- /container -->
+
+	<section id="lab3" style="height:fit-content">
+		<div class="container">
+			<div class="jumbotron">
+				<h1>Projekt 3</h1>
+				<script src="scripts/proj3/get.js"></script>
+				<script src="scripts/proj3/zad1.js"></script>
+				<script src="scripts/proj3/prdom.js"></script>
+				
+				<p id="message>"> Komunikat specjalny</p>
+				
+				<div id="pullquote1" class="pullquote">Osiągnąć sto zwycięstw w stu bitwach nie jest szczytem
+					umiejętności.
+					<br>Szczytem umiejętności jest pokonanie przeciwnika bez walki. 
+				</div>
+				<div id="pullquote2" class="pullquote">Kto pragnie pokoju, a nie stawia żadnych warunków, przygotowuje
+					podstęp.
+				</div>	
+				<div id="pq" class="pq">Jeden z największych starożytnych myślicieli Dalekiego Wschodu, autor Sztuki
+					wojennej Sun Zi (孙子兵法), najstarszego na świecie podręcznika sztuki wojennej. Uważa się go również za
+					jednego z pierwszych realistów w teorii stosunków międzynarodowych, a jego książka jest współcześnie
+					traktowana jak podręcznik prakseologii i reinterpretowana w odniesieniu do innych dziedzin, które
+					wymagają stosowania strategii, jak m.in. zarządzanie przedsiębiorstwem. 
+				</div>
+				<section id="projekt3">
+					<div>
+					<p id="n1">NAJEDŹ NA MNIE!</p>
+					<p id="n2">KLIKNIJ NA MNIE!</p>
+				</section>
+				</div>
+					<span id="s1" class="pullquote">ludzie mają wrodzony talent do wybierania właśnie tego, co dla nich najgorsze. </span>
+					<span id="s2" class="pullquote"> Gotowanie jest jak spacer po rynku. Zawsze chcesz czegoś spróbować </span>
+					<span id="s3" class="pullquote">Szczęście wśród inteligentnych osób to najrzadsza rzecz, jaką znam.  </span>
+			<section id="projekt4">
+				<div class="buttons">
+					<button id="b1" class="b1" >Przycisk1</button><br>
+					<button id="b2" class="b1">Przycisk2</button><br>
+					<button id="b3" class="b1" >Przycisk3</button><br>
+					<button id="b4" class="b1">Przycisk4</button><br>
+					<button id="b5" class="b1" >Przycisk5</button><br>
+					<button id="b6" class="b1">Przycisk6</button><br>
+					<button id="b7" class="b1">Przycisk7</button><br>
+					<button id="b8" class="b1">Przycisk8</button><br>
+					<button id="b9" class="b1">Przycisk9</button><br>
+					<button id="b10" class="b1">Przycisk10</button><br>
+					<br>
+				</div>
+			</section>
+				<section id="main">
+					
+				</section>
+			</div>
+		</div>
+	</section>
+
+
+	<footer>
+		<div class="container" style="margin-top: 5%">
+			<button type="button" class="btn btn-link" data-toggle="modal" data-target="#myModal">Polityka
+				prywatności</button>
+		</div>
+	</footer>
+
+	<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel1">
+		<div class="modal-dialog" role="document">
+			<div class="modal-content">
+				<div class="modal-header">
+					<button type="button" class="close" data-dismiss="modal" aria-label="close">
+						<span aria-hidden="true">&times;</span>
+					</button>
+					<h4 class="modal-title" id="myModalLabel1">Polityka prywatności</h4>
+				</div>
+				<div class="modal-body">polityka prywatności...</div>
+				<div class="modal-footer">
+					<button type="button" class="btn btn-default btn-warning btn-sm" data-dismiss="modal">Close</button>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div class="modal fade" id="ModalForm" tabindex="-1" role="dialog" aria-labelledby="myModalLabel2">
+		<div class="modal-dialog" role="document">
+			<div class="modal-content">
+				<div class="modal-header">
+					<button type="button" class="close" data-dismiss="modal" aria-label="close">
+						<span aria-hidden="true">&times;</span>
+					</button>
+					<h4 class="modal-title" id="myModalLabel2">Kontakt</h4>
+				</div>
+				<div class="modal-body">
+					<section id="form" style="margin-top: 5%">
+						<form action="index.html#kontakt" method="post" onsubmit="return checkForm();">
+							<fieldset>
+								<div class="row">
+									<div class="col-md-12">
+										<p class="hide" id="errorName">Podanie imienia jest
+											wymagane!</p>
+									</div>
+								</div>
+								<div class="row" id="success">
+									<div class="col-md-2" align="right">
+										<label class="control-label" for="contactName">Imię</label>
+									</div>
+									<div class="col-md-4">
+										<input type="text" class="form-control " id="contactName"
+											aria-describedby="inputSuccess5Status" onblur="checkName()" />
+										<span class="hide" aria-hidden="true" id="true"></span> <span
+											id="inputSuccess5Status" class="sr-only">(success)</span>
+									</div>
+								</div>
+								<br>
+								<div class="row">
+									<div class="col-md-12">
+										<p class="hide" id="errorLastName">Podanie nazwiska jest
+											wymagane!</p>
+									</div>
+								</div>
+								<div class="row" id="success2">
+									<div class="col-md-2" align="right">
+										<label class="control-label" for="contactLastName">Nazwisko</label>
+									</div>
+									<div class="col-md-4">
+										<input type="text" class="form-control " id="contactLastName"
+											aria-describedby="inputSuccess5Status" onblur="checkLastName()" /> <span
+											class="hide" aria-hidden="true" id="true2"></span> <span
+											id="inputSuccess5Status2" class="sr-only">(success)</span>
+									</div>
+								</div>
+								<br>
+								<div class="row">
+									<div class="col-md-12">
+										<p class="hide" id="errorEmail">Podanie emaila jest
+											wymagane!</p>
+										<p class="hide" id="errorEmail2">Błędny email!</p>
+									</div>
+								</div>
+								<div class="row" id="success3">
+									<div class="col-md-2" align="right">
+										<label class="control-label" for="contactEmail">Email</label>
+									</div>
+									<div class="col-md-4">
+										<input type="text" class="form-control " id="contactEmail"
+											aria-describedby="inputSuccess5Status" onblur="checkEmail()" />
+										<span class="hide" aria-hidden="true" id="true3"></span> <span
+											id="inputSuccess5Status3" class="sr-only">(success)</span>
+									</div>
+								</div>
+								<br>
+								<div class="row">
+									<div class="col-md-2" align="right">
+										<label for="information">Informacje</label>
+									</div>
+									<div class="col-md-4">
+										<textarea id="information" name="Informacje" cols="30" rows="7" id="Info"
+											maxlength="250"></textarea>
+									</div>
+								</div>
+								<br>
+								<div class="row ">
+									<div class="col-md-2"></div>
+									<div class="col-md-3">
+										<input class="btn btn-primary" type="submit" value="Wyślij" />
+									</div>
+								</div>
+							</fieldset>
+						</form>
+					</section>
+				</div>
+				<div class="modal-footer">
+					<button type="button" class="btn btn-default btn-warning btn-sm" data-dismiss="modal">Close</button>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<!-- Bootstrap core JavaScript
+    ================================================== -->
+
+	<script src="js/bootstrap.min.js"></script>
+	<script src="js/ie10-viewport-bug-workaround.js"></script>
+	<script src="js/forms.js"></script>
+
+</body>
+
+</html>
