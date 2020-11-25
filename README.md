@@ -1,2 +1,3 @@
 # DoerferSzymonLabJS
-Laborki
+#Link do GithubPages: saymon1998.github.io
+
