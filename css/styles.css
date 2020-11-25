@@ -14,3 +14,65 @@
     padding: 15px;
     width: auto;
 }
+
+.pullquote 
+{
+    float: left;
+    clear:right;
+    width: 250px;
+    padding: 10px;
+    font-size: 20px;
+    background-color: rgba(255,211,224,0.5);
+    border-radius: 10px;
+    margin: 20px 0 10px 10px;
+    font-style:italic;
+    border-color: burlywood;
+    margin-right: 10px;
+    font-weight: bold;
+    
+}
+.pq
+{
+    display: inline-block;
+    
+    width: 300px;
+    font-size: 16px;
+    background-color: azure;
+    border-radius: 5px;
+    border-color: burlywood;
+
+}
+section
+{
+    height: auto;
+}
+#lab2
+{
+    height: auto;
+}
+.buttons
+{
+    display: inline-flex;
+}
+
+.button7
+{
+    font-style: italic;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.button9
+{
+    background-color: burlywood;
+    font-size: medium;
+    font-variant: initial;
+}
+
+.button10
+{
+    width: auto;
+    height: auto;
+    font-size: 12px;
+    font-weight: bolder;
+    
+}
